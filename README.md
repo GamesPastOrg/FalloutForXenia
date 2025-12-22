@@ -6,7 +6,7 @@ The recent New Vegas .pdb release allowed me to take a closer look at the render
 
 Note that while these patches are targeting usage in the xenia emulator, they are not relevant to development of xenia. I am merely sidestepping the underlying issue, a "real" fix in xenia is well above my pay grade, and certainly not a trivial thing.
 
-The patch fixes rendering issues present in xenia by forcing everything to render as if it was LOD. This is not a perfect solution, the most noticable degradations are missing water surface detail and trasparency, along with translucent materials using ATOC (alpha to coverage) instead of "true" transparency, leading to a dithered presentation.
+The patch fixes rendering issues present in xenia by forcing everything to render as if it was LOD. This is not a perfect solution, the most noticable degradations are missing water surface detail and transparency, along with translucent materials using ATOC (alpha to coverage) instead of "true" transparency, leading to a dithered presentation.
 
 ---
 
